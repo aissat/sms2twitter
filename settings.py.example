@@ -1,0 +1,7 @@
+# Rename this file to settings.py
+gsmmodem    = "/dev/ttyUSB1"
+whitelist   = ['+15555555', '+25555555555']
+apikey      = ""
+apisecret   = ""
+oauthtoken  = ""
+oauthsecret = ""
