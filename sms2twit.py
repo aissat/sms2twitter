@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-import sys
-import signal
 import Queue
 from twthread import TwitterUpdate
 from smsthread import MessageReader
