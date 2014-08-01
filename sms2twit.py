@@ -12,7 +12,7 @@ if __name__ == "__main__":
     smsreader = MessageReader(queue)
     twthread = TwitterUpdate(queue)
 
-    # Threads wont keep alive the application after main exited
+    # Threads wont keep alive the application after main thread exited
     twthread.daemon = True
     smsreader.daemon = True
 
